@@ -1,0 +1,166 @@
+# Settings
+#
+### APPEARENCE ###
+# MARKERS #
+soi_model = 5
+soi_arcs_small = 1
+
+#
+### FITTING ###
+sprocket_upr_ori_x = 11 # rotates the MAR_SPROCKET_CENTER
+sprocket_upr_roll_r = 32.6 # radius of the curve path for the chain rolls 
+links_init_angle = 22.46 # angle of the initial orientation of chain links on the curve path 
+
+# CASSETTE
+# parameters for MAR_CASSETTE_CENTER
+#cassette_ori = [0.8,0,0]
+cassette_ori = [-0.4,0,0] # for cassette 4
+#cassette_loc = [1,-445.0,10]
+cassette_loc = [0,-445.0,10] # for cassette 4
+#cassette_rad = 36.41 # 5
+cassette_rad = 32.395 # 4
+#cassette_pitch_deg = 20.09 # 5
+cassette_pitch_deg = 22.61 # 4
+
+# SPROCKET MAIN
+# parameters for MAR_SPROCKET_MAIN_CENTER:
+#sprocket_main_ori_x = 6.8
+sprocket_main_ori_x = 5.7 # for cassette 4
+sprocket_main_ori_z = 0 
+sprocket_main_loc = [0, -4, 0]
+sprocket_main_rad = 68.82
+sprocket_main_pitch_deg = 10.6
+
+# SPROCKET UPPER
+sprocket_upr_loc = [0, -20, 114]
+#sprocket_upr_ori = [2.2, 0, 0]
+sprocket_upr_ori = [2.5, 0, 0] # for cassette 4
+sprocket_upr_pitch_deg = 22.46
+
+# DERAILLEUR STATIC PART
+# parameters for MAR_DER_STAT_CENTER:
+der_stat_ori = [-9.5, 0, 0]
+der_stat_loc = [0,-445.0,10]
+der_stat_cm = [17.8, -5.4, -41.5]
+der_stat_inertia = [182.2, 77.56, 213.83,0,0,0]
+
+# LINK INNER
+# parameters for MAR_LINK_INR_CENTER:
+#link_inr_ori = [-29.195322488, 5.999, 10.593792017] # local params
+#link_inr_loc = [8.64134, 3.47829, -71.0981] # local params
+link_inr_ori = [-38.617, 7.658, 9.471] # global params
+link_inr_loc = [30.641, -441.426, 31.92] # global params
+link_inr_cm = [1.5, 25.6, 8.0]
+link_inr_inertia = [13.957, 5.789, 8.729, 0.0,0.0,0.0]
+
+# FOUR-BAR LINKAGE PARAMETERS
+fbar_input_init = 86.16
+fbar_output_init = 93.84
+fbar_input = 0
+fbar_AB = 48
+fbar_BC = 24.30
+fbar_CD = 48.0
+fbar_AD = 24.30
+
+# LINK OUTER
+# parameters for MAR_LINK_OUT_CENTER:
+#link_out_ori = [-29.195, 5.999, 10.59]# local params
+#link_out_loc = [32.0, 9.244, -74.509]# local params
+link_out_ori = [-38.617, 7.658, 9.471] # global params
+link_out_loc = [54, -436.303, 27.604] # global params
+link_out_cm = [1.4, 23.2, 2.9]
+link_out_inertia = [13.957, 5.789, 8.729, 0,0,0]
+
+# KNUCKLE
+# parameters for MAR_KNUCKLE_CENTER:
+#knuckle_ori= [-12.16,0,0] # local params
+#knuckle_loc=[-16.549, 28.318,0] # local params
+knuckle_ori= [-39.251, 0, 0] # global params
+#knuckle_loc=[0, -353.6, -84.6] # global params
+knuckle_loc=[0, -359.046, -89.575] # global params for cassette 4
+knuckle_cm= [27.4, -7.7, -2.9]
+knuckle_inertia=[9.21, 9.525, 7.953, 0, 0 ,0]
+
+# DERAILLEUR CAGE
+# parameters for MAR_DER_CAGE_CENTER:
+der_cage_ori= [0,0,0]
+der_cage_loc=[0,0,0]
+der_cage_cm= [11.6, -6.4, -29.5]
+der_cage_inertia=[367.01, 336.32, 67.66, 0,0,0]
+
+# JOCKEY UPPER
+# parameters for MAR_JOCKEY_UPR_CENTER:
+#jockey_upr_ori_lcl = [0,-7.05,0] # local params
+jockey_upr_ori_lcl = [0,14.8,0] # local params for cassette 4
+jockey_upr_loc_lcl = [0, 0,0] # local params
+jockey_upr_ori_gl = [0, 0, 0] # global params
+#jockey_upr_loc_gl = [0, -404.29, -65.95] # global params
+#jockey_upr_loc_gl = [0, -403.05, -62.89] # global params rotated
+jockey_upr_loc_gl = [0, -410.649, -73.664] # global params for cassette 4
+jockey_upr_cm = [0,0,0]
+jockey_upr_inertia = [2.64,1.34,1.34,0,0,0]
+jockey_upr_rad = 28.41
+jockey_upr_pitch_deg = 25.83
+jockey_upr_2_kn_len = 54
+jockey_upr_2_kn_deg = -66.75
+
+# JOCKEY LOWER
+# parameters for MAR_JOCKEY_LWR_CENTER:
+#jockey_lwr_ori_lcl = [0,6.4,0] # local params
+jockey_lwr_ori_lcl = [0,-0.6,0] # local params for cassette 4
+jockey_lwr_loc_lcl = [0,0,0] # local params
+jockey_lwr_ori_gl = [10.5, 0, 0] # global params
+#jockey_lwr_loc_gl = [0,-427.88, -154.39] # global params 
+jockey_lwr_loc_gl = [0, -425.085, -167.205] # global params for cassette 4
+jockey_lwr_cm = [0,0,0]
+jockey_lwr_inertia = [2.543,2.543,5.034,0,0,0]
+jockey_lwr_rad = 32.75
+jockey_lwr_pitch_deg = 22.45
+
+# SUSPENSION
+rocker_rear_loc = [0,-23,229]
+rocker_mid_loc = [0,25,216]
+rocker_front_loc = [0,67,268.6]
+damper_lwr_loc = [0,94.86,45.33]
+link_lwr_front_loc = [0,-20,114]
+link_lwr_rear_loc = [0,-385, 10]
+front_axle_loc = [0, 842.5, 7.5]
+logger_loc = [0, 290, 290.25]
+logger_ori = [30.72, 0, -90]
+
+# CHAIN 
+# spherical joints friction parameters 
+sph_mu_dyn = 0.5#2
+sph_mu_st = 0.2#0.2
+sph_mu_stv = 0.228
+sph_mu_tvc = 1.1
+sph_mu_max_st_def = 0.015
+sph_mu_ball_r = 3.5
+sph_mu_trq_pr = 0
+# parameters and fitting for chain
+roll_cyl_len = 1.73
+roll_radius = 3.965
+# angles
+links_ori_x_2 = 21.947
+links_ori_x_3 = -74.0
+links_ori_4 = [-170, 0, 0]
+links_ori_5 = [-172.4, 0, -0.7695]
+links_ori_6 = [-172.4, 0, -3.7]
+links_ori_7 = [0,150,0]
+links_ori_8 = [0,5.3,0]
+links_ori_9 = [0,-21.9,0]
+links_ori_10 = [0,-22,0]
+
+#
+### KEY PARAMETERS ###
+rollers_dist = 12.7 # distance between chain rollers
+tab_inr_ctr_loc_x = -1.78 #-1.72
+tab_inr_end_loc_x = 1.78 #1.72
+tab_inr_end_ori_z = -180
+
+tab_out_ctr_loc_x = -2.58
+tab_out_end_loc_x = 2.58
+tab_out_end_ori_z = -180
+
+color_link_inr = 'DkRed'
+color_link_out = 'CadetBlue'

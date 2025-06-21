@@ -1,0 +1,9 @@
+####
+#
+### SETTINGS FOR PLOTTING ###
+#
+# COLORS
+TUMOrange = '#E37222'
+TUMBlue = '#0065BD'
+TUMGreen = '#A2AD00'
+TUMGray2 = '#7F7F7F'
