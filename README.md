@@ -13,7 +13,7 @@ The positions for each pin are calculated analytically using the methodology des
 
 The code uses a Adams-Python library of https://marketplace.visualstudio.com/items?itemName=savvyanalyst.msc-adams
 
-Note: you do not need to install the library on yoour UDE to create the model. Pass the code to Adams and it uses its own interpretor to utilize the commands.
+Note: you do not need to install the library on yoour UDE to create the model as it is. Pass the code to Adams and it uses its own interpretor to utilize the commands.
 
  If nessecary, install the mossing python-packages in the Adams command promt using pip
    ```sh
