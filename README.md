@@ -21,7 +21,7 @@ Note: you do not need to install the library on yoour UDE to create the model as
    ```
 ## Usage
 
-- Use the main to calculate an write the individual positions of the chain pins
-- Use the main_2d to create the model in Adams
+- Use the `main.py` to calculate an write the individual positions of the chain pins
+- Use the `main_2d.py` to create the model in Adams
 
 
