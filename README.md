@@ -15,7 +15,7 @@ The code uses a Adams-Python library of https://marketplace.visualstudio.com/ite
 
 Note: you do not need to install the library on yoour UDE to create the model as it is. Pass the code to Adams and it will use its own interpretor to utilize the commands.
 
- If nessecary, install the mossing python-packages in the Adams command promt using pip
+ If nessecary, install the missing python-packages in the Adams command promt using pip
    ```sh
     adams2023_3 python -m pip install matplotlib
    ```
