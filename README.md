@@ -24,9 +24,4 @@ Note: you do not need to install the library on yoour UDE to create the model as
    ```sh
     adams2023_3 python -m pip install matplotlib
    ```
-## Usage
-
-- Use the `main.py` to calculate an write the individual positions of the chain pins
-- Use the `main_2d.py` to create the model in Adams
-
 
