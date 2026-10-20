@@ -1,7 +1,7 @@
 ## About The Project
 The code creates a Multibody Model of a SRAM chain drive in Adams. The model is used to study chain oscilations and effects of thr derailleur parametrers on the feedback to the driver.
 
-<img src="https://github.com/user-attachments/assets/c46653c6-52e8-474d-a440-ce55d7b0484a" alt="title_pic" width="500"/>
+<img width="1041" height="789" alt="Image" src="https://github.com/user-attachments/assets/16932611-291f-4b10-9d10-0bd9b82aa1e0" />
 
 
 <img src="https://github.com/user-attachments/assets/6a39e70d-57ed-449e-91d7-1ef414bfd711" alt="title_pic" width="500"/>
