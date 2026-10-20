@@ -7,7 +7,7 @@ The code creates a Multibody Model of a SRAM chain drive in Adams. The model is 
 
 <img width="1429" height="349" alt="Image" src="https://github.com/user-attachments/assets/938341bc-3292-47ed-ad80-a6a674c6d78f" />
 
-<img width="948" height="651" alt="Image" src="https://github.com/user-attachments/assets/33c0ecb2-2d40-4dcf-b212-1f04c80c7f0b" />
+<img width="948*0.3" height="651*0.3" alt="Image" src="https://github.com/user-attachments/assets/33c0ecb2-2d40-4dcf-b212-1f04c80c7f0b" />
 
 
 
