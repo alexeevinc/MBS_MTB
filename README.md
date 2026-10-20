@@ -5,9 +5,11 @@ The code creates a Multibody Model of a SRAM chain drive in Adams. The model is 
 
 <img width="1150" height="784" alt="Image" src="https://github.com/user-attachments/assets/58787288-6709-4c87-a9aa-d16ca1e6250a" />
 
+<img width="1429" height="349" alt="Image" src="https://github.com/user-attachments/assets/938341bc-3292-47ed-ad80-a6a674c6d78f" />
+
 <img width="948" height="651" alt="Image" src="https://github.com/user-attachments/assets/33c0ecb2-2d40-4dcf-b212-1f04c80c7f0b" />
 
-<img width="645" height="474" alt="Image" src="https://github.com/user-attachments/assets/8d7a0df7-e414-4e94-8b7f-fddf9ee4034b" />
+
 
 The positions for each pin are calculated analytically using the methodology described in https://link.springer.com/article/10.1007/s11044-010-9207-x
 
