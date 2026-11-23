@@ -1,5 +1,5 @@
 ## About The Project
-The code creates a Multibody Model of a SRAM chain drive in Adams. The model is used to study chain oscilations and effects of thr derailleur parametrers on the feedback to the driver.
+The code creates a Multibody Model of a SRAM chain drive in Adams. The model is used to study chain oscilations and effects of the derailleur parametrers on the feedback to the driver.
 
 <img width="1010" height="789" alt="Image" src="https://github.com/user-attachments/assets/16932611-291f-4b10-9d10-0bd9b82aa1e0" />
 
@@ -18,7 +18,7 @@ The positions for each pin are calculated analytically using the methodology des
 
 The code uses a Adams-Python library of https://marketplace.visualstudio.com/items?itemName=savvyanalyst.msc-adams
 
-Note: you do not need to install the library on yoour UDE to create the model as it is. Pass the code to Adams and it will use its own interpretor to utilize the commands.
+Note: you do not need to install the library on your UDE to create the model as it is. Pass the code to Adams and it will use its own interpretor to utilize the commands.
 
  If nessecary, install the missing python-packages in the Adams command promt using pip
    ```sh
